@@ -59,65 +59,65 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ICU Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ICU Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ICU Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>Intel C++ Compiler XE 15.0</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -161,39 +161,39 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\..\..\Build\Win32\VC12\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\..\..\Build\Win64\VC12\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OUTPUTDIR)\$(ProjectName)\$(Configuration)\$(PlatformArchitecture)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OUTPUTDIR)\$(ProjectName)\$(Configuration)\$(PlatformArchitecture)</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\..\..\Build\Win32\VC12\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\..\..\Build\Win64\VC12\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'">.\..\..\..\..\..\Build\Win32\VC12\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Release|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Release|x64'">.\..\..\..\..\..\Build\Win64\VC12\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Release|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'">.\..\..\..\..\..\Build\Win32\VC12\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Debug|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Debug|x64'">.\..\..\..\..\..\Build\Win64\VC12\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Debug|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='ICU Debug|Win32'">.\..\..\..\..\..\Build\Win32\VC12\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='ICU Debug|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ICU Debug|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ICU Debug|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ICU Debug|Win32'">true</LinkIncremental>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='ICU Debug|x64'">.\..\..\..\..\..\Build\Win64\VC12\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='ICU Debug|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ICU Debug|x64'">true</LinkIncremental>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='ICU Release|Win32'">.\..\..\..\..\..\Build\Win32\VC12\$(Configuration)\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='ICU Release|Win32'">$(OutDir)obj\$(ProjectName)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='ICU Release|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='ICU Release|Win32'">$(OUTPUTDIR)\$(ProjectName)\$(PlatformArchitecture)\$(Configuration)</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ICU Release|Win32'">false</LinkIncremental>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='ICU Release|x64'">.\..\..\..\..\..\Build\Win64\VC12\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='ICU Release|x64'">$(OutDir)obj\$(ProjectName)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='ICU Release|x64'">false</LinkIncremental>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xerces-c_3_1D</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xerces-c_3_1</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='ICU Debug|Win32'">xerces-c_3_1D</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='ICU Release|Win32'">xerces-c_3_1</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">xerces-c_3_1</TargetName>
@@ -247,7 +247,7 @@
     <Link>
       <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>ws2_32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(TargetPath)</OutputFile>
+      <OutputFile>..\..\..\..\..\..\..\dll$(PlatformArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)xerces-c_3_1.pdb</ProgramDatabaseFile>
@@ -261,7 +261,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <ImportLibrary>$(OutDir)xerces-c_3.lib</ImportLibrary>
+      <ImportLibrary>..\..\..\..\..\..\..\lib$(PlatformArchitecture)\$(Configuration)\$(TargetName).lib</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -293,7 +293,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>ws2_32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(TargetPath)</OutputFile>
+      <OutputFile>..\..\..\..\..\..\..\dll$(PlatformArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)xerces-c_3_1.pdb</ProgramDatabaseFile>
@@ -307,7 +307,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <ImportLibrary>$(OutDir)xerces-c_3.lib</ImportLibrary>
+      <ImportLibrary>..\..\..\..\..\..\..\lib$(PlatformArchitecture)\$(Configuration)\$(TargetName).lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
@@ -340,7 +340,7 @@
     <Link>
       <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>ws2_32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(TargetPath)</OutputFile>
+      <OutputFile>..\..\..\..\..\..\..\dll$(PlatformArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)xerces-c_3_1D.pdb</ProgramDatabaseFile>
@@ -350,7 +350,8 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <ImportLibrary>$(OutDir)xerces-c_3D.lib</ImportLibrary>
+      <ImportLibrary>..\..\..\..\..\..\..\lib$(PlatformArchitecture)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <SupportNobindOfDelayLoadedDLL>true</SupportNobindOfDelayLoadedDLL>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -380,7 +381,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalDependencies>ws2_32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(TargetPath)</OutputFile>
+      <OutputFile>..\..\..\..\..\..\..\dll$(PlatformArchitecture)\$(Configuration)\$(TargetName)$(TargetExt)</OutputFile>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)xerces-c_3_1D.pdb</ProgramDatabaseFile>
@@ -390,7 +391,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <ImportLibrary>$(OutDir)xerces-c_3D.lib</ImportLibrary>
+      <ImportLibrary>..\..\..\..\..\..\..\lib$(PlatformArchitecture)\$(Configuration)\$(TargetName).lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
