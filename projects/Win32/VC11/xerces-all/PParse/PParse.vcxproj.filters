@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\samples\src\PParse\PParse.cpp">
+    <ClCompile Include="../../../../../samples/src/PParse\PParse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\samples\src\PParse\PParseHandlers.cpp">
+    <ClCompile Include="../../../../../samples/src/PParse\PParseHandlers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\samples\src\PParse\PParse.hpp">
+    <ClInclude Include="../../../../../samples/src/PParse\PParse.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\samples\src\PParse\PParseHandlers.hpp">
+    <ClInclude Include="../../../../../samples/src/PParse\PParseHandlers.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

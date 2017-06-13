@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\tests\src\XSValueTest\XSValueTest.cpp">
+    <ClCompile Include="../../../../../tests/src/XSValueTest\XSValueTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\tests\src\XSValueTest\XSValueTest.hpp">
+    <ClInclude Include="../../../../../tests/src/XSValueTest\XSValueTest.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

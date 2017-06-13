@@ -15,24 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\tests\src\XSTSHarness\XMLHarnessHandlers.cpp">
+    <ClCompile Include="../../../../../tests/src/XSTSHarness\XMLHarnessHandlers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\tests\src\XSTSHarness\XSTSHarness.cpp">
+    <ClCompile Include="../../../../../tests/src/XSTSHarness\XSTSHarness.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\tests\src\XSTSHarness\XSTSHarnessHandlers.cpp">
+    <ClCompile Include="../../../../../tests/src/XSTSHarness\XSTSHarnessHandlers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\tests\src\XSTSHarness\XMLHarnessHandlers.hpp">
+    <ClInclude Include="../../../../../tests/src/XSTSHarness\XMLHarnessHandlers.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\tests\src\XSTSHarness\XSTSHarness.hpp">
+    <ClInclude Include="../../../../../tests/src/XSTSHarness\XSTSHarness.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\tests\src\XSTSHarness\XSTSHarnessHandlers.hpp">
+    <ClInclude Include="../../../../../tests/src/XSTSHarness\XSTSHarnessHandlers.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

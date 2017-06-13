@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\tests\src\XSerializerTest\XSerializerHandlers.cpp">
+    <ClCompile Include="../../../../../tests/src/XSerializerTest\XSerializerHandlers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\tests\src\XSerializerTest\XSerializerTest.cpp">
+    <ClCompile Include="../../../../../tests/src/XSerializerTest\XSerializerTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\tests\src\XSerializerTest\XSerializerHandlers.hpp">
+    <ClInclude Include="../../../../../tests/src/XSerializerTest\XSerializerHandlers.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\tests\src\XSerializerTest\XSerializerTest.hpp">
+    <ClInclude Include="../../../../../tests/src/XSerializerTest\XSerializerTest.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

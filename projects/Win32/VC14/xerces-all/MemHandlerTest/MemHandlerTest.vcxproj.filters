@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\tests\src\MemHandlerTest\MemoryMonitor.cpp">
+    <ClCompile Include="../../../../../tests/src/MemHandlerTest\MemoryMonitor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\tests\src\MemHandlerTest\MemoryMonitor.hpp">
+    <ClInclude Include="../../../../../tests/src/MemHandlerTest\MemoryMonitor.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\tests\src\MemHandlerTest\SimpleValueHashTableOf.hpp">
+    <ClInclude Include="../../../../../tests/src/MemHandlerTest\SimpleValueHashTableOf.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

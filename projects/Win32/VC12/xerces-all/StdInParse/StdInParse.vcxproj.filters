@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\samples\src\StdInParse\StdInParse.cpp">
+    <ClCompile Include="../../../../../samples/src/StdInParse\StdInParse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\samples\src\StdInParse\StdInParseHandlers.cpp">
+    <ClCompile Include="../../../../../samples/src/StdInParse\StdInParseHandlers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\samples\src\StdInParse\StdInParse.hpp">
+    <ClInclude Include="../../../../../samples/src/StdInParse\StdInParse.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\samples\src\StdInParse\StdInParseHandlers.hpp">
+    <ClInclude Include="../../../../../samples/src/StdInParse\StdInParseHandlers.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

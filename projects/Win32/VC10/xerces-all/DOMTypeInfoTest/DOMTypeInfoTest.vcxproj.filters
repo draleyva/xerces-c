@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\tests\src\Dom\TypeInfo\TypeInfo.cpp">
+    <ClCompile Include="../../../../../tests/src/Dom\TypeInfo\TypeInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\tests\src\Dom\TypeInfo\TypeInfo.hpp">
+    <ClInclude Include="../../../../../tests/src/Dom\TypeInfo\TypeInfo.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
